@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxrm_world_docu_saurus=self.webpackChunkxrm_world_docu_saurus||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/Xrm-World-Docs/blog","blogTitle":"Blog","authorsListPath":"/Xrm-World-Docs/blog/authors"}')}}]);
