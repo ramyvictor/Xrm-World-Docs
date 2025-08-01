@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://xrm.world',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Xrm-World-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -86,8 +86,7 @@ const config: Config = {
           position: 'left',
           label: 'Toolset',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},,
-        {to: '/ramy-victor-malek', label: 'About me', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
