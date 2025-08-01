@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xrm.world/blog</id>
+    <title>xRM World Blog</title>
+    <updated>2025-08-01T15:54:23.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://xrm.world/blog"/>
+    <subtitle>xRM World Blog</subtitle>
+    <icon>https://xrm.world/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Coming soon!]]></title>
+        <id>https://xrm.world/blog/index</id>
+        <link href="https://xrm.world/blog/index"/>
+        <updated>2025-08-01T15:54:23.000Z</updated>
+    </entry>
+</feed>
