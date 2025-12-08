@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxrm_world_docu_saurus=self.webpackChunkxrm_world_docu_saurus||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Coming soon!","permalink":"/Xrm-World-Docs/blog/index","unlisted":false,"date":"2025-08-01T15:54:23.000Z"}]}')}}]);

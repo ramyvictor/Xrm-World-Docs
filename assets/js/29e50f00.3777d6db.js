@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxrm_world_docu_saurus=self.webpackChunkxrm_world_docu_saurus||[]).push([[432],{5367:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/Xrm-World-Docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
