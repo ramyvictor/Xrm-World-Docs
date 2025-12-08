@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+hide_sidebar: true
 ---
 # Getting Started
 

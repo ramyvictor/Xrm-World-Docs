@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+hide_sidebar: true
 ---
 # Introduction
 Xrm-World Extension is a browser tool available for **Chrome** and **Edge** that enhances productivity when working with **Microsoft Dynamics 365**.
