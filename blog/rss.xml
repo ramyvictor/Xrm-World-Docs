@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>xRM World Blog</title>
-        <link>https://xrm.world/Xrm-World-Docs/blog</link>
+        <link>https://xrm.world/blog</link>
         <description>xRM World Blog</description>
         <lastBuildDate>Fri, 01 Aug 2025 15:54:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Coming soon!]]></title>
-            <link>https://xrm.world/Xrm-World-Docs/blog/index</link>
-            <guid>https://xrm.world/Xrm-World-Docs/blog/index</guid>
+            <link>https://xrm.world/blog/index</link>
+            <guid>https://xrm.world/blog/index</guid>
             <pubDate>Fri, 01 Aug 2025 15:54:23 GMT</pubDate>
         </item>
     </channel>
