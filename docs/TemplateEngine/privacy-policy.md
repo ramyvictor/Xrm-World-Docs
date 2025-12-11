@@ -1,5 +1,5 @@
 ---
-sidebar_position: 100
+hide_sidebar: true
 ---
 # Privacy Policy
 

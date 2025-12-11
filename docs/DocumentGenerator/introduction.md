@@ -1,7 +1,9 @@
 ---
-hide_sidebar: true
+sidebar_position: 10
 ---
-# Getting Started
+# Document Generator
+
+## Getting Started
 
 Follow these steps to get up and running with the CLI.
 

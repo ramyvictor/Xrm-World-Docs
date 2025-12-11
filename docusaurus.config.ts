@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'xRM World',
-  tagline: 'Microsoft Power Platform Blog and Toolset',
+  tagline: 'Future Vision for Microsoft Dynamics 365 Power Platform',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -86,7 +86,7 @@ const config: Config = {
           position: 'left',
           label: 'Toolset',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -123,21 +123,21 @@ const config: Config = {
         //     },
         //   ],
         // },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            // {
-            //   label: 'GitHub',
-            //   href: 'https://github.com/facebook/docusaurus',
-            // },
-          ],
-        },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     // {
+        //     //   label: 'Blog',
+        //     //   to: '/blog',
+        //     // },
+        //     // {
+        //     //   label: 'GitHub',
+        //     //   href: 'https://github.com/facebook/docusaurus',
+        //     // },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} xRM World, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} xRM World, Inc.`,
     },
     prism: {
       theme: prismThemes.github,

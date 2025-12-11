@@ -1,13 +1,13 @@
 ---
-sidebar_position: 1
+sidebar_position: 20
 ---
 # Introduction 
-Template-driven automation of record operations model-driven Power Apps application. 
+Template-driven automation of record operations model-driven Power Apps application. A planned collection of operation request definitions.
 You can create a group of action templates that can run on trigger definition(s). 
 Every group item represents a table record in Dataverse represented in a robust JSON editor to easily construct the table record object definition. 
 
 ## Template Group
-A group of template items. Defines the scope of actions and the  [source](appendix#source) type. A group can be filtered by a filtering expression.
+Group of template items (set of actions).Defines the scope of actions and the  [source](appendix#source) type. A group can be filtered by a filtering expression.
 ### Conditional Template Group Filtering
 Runs only if the source state is Active
 ```json
@@ -15,7 +15,7 @@ statecode != 1
 ```
 
 ## Template Item
-The [target](appendix#target) table object definition in JSON.
+A table "[target](appendix#target)" object definition in JSON.
 ![template item record](img/templateitemrecord.png)
 
 ```json
@@ -48,6 +48,8 @@ The editor uses the Monaco Editor, providing intelligent suggestions and auto-co
 The schema functionality powers these suggestions, ensuring that only valid properties in all entities metadata and methods are shown based on your template item entity context.
 ### Schema
 ![monaco autocomplete](img/monaco-autocomplete.png)
+### Optionset (Picklist) Description
+![picklist autocomplete](img/picklist-suggestion.png)
 # Environment Variables
 ```json
 {
@@ -69,5 +71,3 @@ Bogus
 ```
 ## Rollback
 On a job. Click "Roll Back" to delete records created by the job. That is useful for testing.
-## Credits
-- [Charles Llamas](https://github.com/Charlesllamas) for [Code Editor](https://github.com/Charlesllamas/Code-Editor-PCF) PCF component

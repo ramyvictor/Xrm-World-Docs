@@ -1,5 +1,5 @@
 ---
-sidebar_position: 98
+hide_sidebar: true
 ---
 # Help
 

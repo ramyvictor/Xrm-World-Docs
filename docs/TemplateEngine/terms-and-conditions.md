@@ -1,5 +1,5 @@
 ---
-sidebar_position: 99
+hide_sidebar: true
 ---
 # Terms and Conditions
 

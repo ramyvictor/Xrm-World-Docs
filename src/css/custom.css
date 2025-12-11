@@ -21,6 +21,8 @@
   --ifm-font-family-base: 'Mulish Variable', sans-serif;
   --ifm-heading-font-family: 'Mulish Variable', sans-serif;
   --ifm-font-family-monospace: monospace;
+  --ifm-font-color-base-inverse: #FFFFFF;
+
   /* --ifm-font-size-base: 90%; */
   /* --ifm-spacing-horizontal: 120px */
 }
@@ -35,6 +37,8 @@
   --ifm-color-primary-lighter: #A3D2F5;
   --ifm-color-primary-lightest: #B9DDF9;
   --docusaurus-highlighted-code-line-bg: rgba(116, 178, 226, 0.15);
+  --ifm-hero-text-color: #FFFFFF;
+  --ifm-font-color-base-inverse: #FFFFFF;
 }
 /* #__docusaurus {
     padding: 0px 11rem;
