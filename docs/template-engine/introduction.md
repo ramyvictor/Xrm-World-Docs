@@ -2,9 +2,7 @@
 sidebar_position: 20
 ---
 # Introduction 
-Template-driven automation of record operations model-driven Power Apps application. A planned collection of operation request definitions.
-You can create a group of action templates that can run on trigger definition(s). 
-Every group item represents a table record in Dataverse represented in a robust JSON editor to easily construct the table record object definition. 
+**Template-driven automation** for record operations within a model-driven Power Apps application. The core functionality involves creating a **planned collection of operation requests**, or Action Templates (definition based), which are organized into groups that execute automatically based on defined trigger(s). Every item in an action group represents a specific **table record definition in Dataverse**, which users can easily and precisely construct using a **robust JSON editor** to define the necessary table record object.
 
 ## Template Group
 Group of template items (set of actions).Defines the scope of actions and the  [source](appendix#source) type. A group can be filtered by a filtering expression.
@@ -50,6 +48,10 @@ The schema functionality powers these suggestions, ensuring that only valid prop
 ![monaco autocomplete](img/monaco-autocomplete.png)
 ### Optionset (Picklist) Description
 ![picklist autocomplete](img/picklist-suggestion.png)
+### Polymorphic Objects
+Depending on the `{{attribute field}}type` field the object autocomplete switches
+
+![polymorphic support](img/polymorphic-objects.png)
 # Environment Variables
 ```json
 {

@@ -34,6 +34,54 @@ You can use the `entityreference` function to look up and reference records by I
 }
 ```
 
+
+## One-to-Many Operations
+One-to-many operations allow you to aggregate or summarize data from related records. This is useful for rollups or creating summaries.
+
+
+### Rollup Example (Sales)
+Calculate the **total duration of all phone calls** related to an opportunity and update a custom field on the opportunity record.
+
+
+```json
+{
+    "xrm_totalcallminutes": "{{sum = 0; for item in source.Oppportunity_PhoneCalls; if item.actualdurationminutes; sum = sum + item.actualdurationminutes; end; end; sum}}"
+}
+```
+
+
+### Summarizing Example (Sales)
+Create a **comma-separated list of subjects** for all tasks related to an opportunity.
+
+
+```json
+{
+    "xrm_tasksummary": "{{source.Opportunity_Tasks | array.map 'subject' | array.join ', '}}"
+}
+```
+
+
+### Rollup Example (Service)
+Calculate the **total time spent on all cases** related to an account and update a custom field on the account record.
+
+
+```json
+{
+    "xrm_totalcaseminutes": "{{sum = 0; for item in source.Account_Cases; if item.timespent; sum = sum + item.timespent; end; end; sum}}"
+}
+```
+
+
+### Summarizing Example (Service)
+Create a **comma-separated list of case titles** for all cases related to an account.
+
+
+```json
+{
+    "xrm_casesummary": "{{source.Account_Cases | array.map 'title' | array.join ', '}}"
+}
+```
+
 ### Date & Time (expiry, SLA, follow-up)
 
 ```json

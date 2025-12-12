@@ -22,7 +22,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Developer Tools',
-      items: ['DocumentGenerator/introduction'
+      items: ['document-generator/introduction'
 
       ],
     },
@@ -32,8 +32,18 @@ const sidebars: SidebarsConfig = {
       items: [{
         type: 'category',
         label: 'Template Engine',
-        items: ['TemplateEngine/introduction',
-          'TemplateEngine/expressions',
+        items: [
+          'template-engine/introduction',
+          'template-engine/expressions',
+          {
+            type: 'category',
+            label: 'Use Cases',
+            items: [
+              'template-engine/use-cases/phonecall-activities-onbooking-creation',
+              'template-engine/use-cases/lead-retention-period',
+              'template-engine/use-cases/api-trigger',
+            ],
+          }
         ],
       }
       ],

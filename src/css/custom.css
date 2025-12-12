@@ -39,7 +39,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(116, 178, 226, 0.15);
   --ifm-hero-text-color: #FFFFFF;
   --ifm-font-color-base-inverse: #FFFFFF;
+   .featureSvg_GfXr {
+  filter: invert(1);
+}
 }
 /* #__docusaurus {
     padding: 0px 11rem;
 } */
+ 
+.featureSvg_GfXr {
+  width: 100px!important;
+  height: 100px!important;
+}
