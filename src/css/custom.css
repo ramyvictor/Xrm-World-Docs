@@ -22,7 +22,12 @@
   --ifm-heading-font-family: 'Mulish Variable', sans-serif;
   --ifm-font-family-monospace: monospace;
   --ifm-font-color-base-inverse: #FFFFFF;
-
+  img[src$='.svg'] {
+    filter: invert(0);
+  }
+  .logoSmall {
+  width: 18px;
+}
   /* --ifm-font-size-base: 90%; */
   /* --ifm-spacing-horizontal: 120px */
 }
@@ -39,15 +44,21 @@
   --docusaurus-highlighted-code-line-bg: rgba(116, 178, 226, 0.15);
   --ifm-hero-text-color: #FFFFFF;
   --ifm-font-color-base-inverse: #FFFFFF;
-   .featureSvg_GfXr {
-  filter: invert(1);
+
+  img[src$='.svg'] {
+    filter: invert(1);
+  }
+
+  .featureSvg_GfXr {
+    filter: invert(1);
+  }
 }
-}
+
 /* #__docusaurus {
     padding: 0px 11rem;
 } */
- 
+
 .featureSvg_GfXr {
-  width: 100px!important;
-  height: 100px!important;
+  width: 100px !important;
+  height: 100px !important;
 }

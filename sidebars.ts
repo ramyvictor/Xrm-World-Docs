@@ -43,7 +43,8 @@ const sidebars: SidebarsConfig = {
               'template-engine/use-cases/lead-retention-period',
               'template-engine/use-cases/api-trigger',
             ],
-          }
+          },
+          'template-engine/limitations'
         ],
       }
       ],

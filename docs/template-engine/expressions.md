@@ -81,7 +81,7 @@ Create a **comma-separated list of case titles** for all cases related to an acc
     "xrm_casesummary": "{{source.Account_Cases | array.map 'title' | array.join ', '}}"
 }
 ```
-
+## Simple Type Expressions
 ### Date & Time (expiry, SLA, follow-up)
 
 ```json

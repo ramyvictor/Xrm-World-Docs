@@ -83,7 +83,9 @@ When a booking is created or confirmed:
   "scheduledend": "{{ source.starttime | date.add_days -1 }}",
   "prioritycode": 2,
   "regardingobjectid_bookableresourcebooking@odata.bind": "/bookableresourcebookings({{ source.bookableresourcebookingid }})",
-  "template:condition": "{{ (source.starttime | date.diff date.now 'days') > 1 }}"
+  "TemplateEngine": {
+    "Condition": "{{ (source.starttime | date.diff date.now 'days') > 1 }}"
+  }
 }
 ```
 

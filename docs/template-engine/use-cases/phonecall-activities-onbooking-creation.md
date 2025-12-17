@@ -30,7 +30,9 @@ When a booking is created with an existing resource:
 
 ```json
 {
-  "template:condition": "{{source.resource}}",
+  "TemplateEngine": {
+    "Condition": "{{ source.resource }}"
+  },
   "description": "Call {{ source.resource.name }}",
   "regardingobjectid": "{{ entityreference('bookableresourcebooking', source.bookableresourcebookingid) }}",
   "scheduledend": "{{ date.now | date.add_days 14 | date.to_string '%Y-%m-%d 15:00:00' }}",
@@ -40,7 +42,7 @@ When a booking is created with an existing resource:
 
 **Explanation:**
 
-* Only runs if source.resource contains data with `template:condition`
+* Only runs if `source.resource` contains data via `TemplateEngine.Condition`
 * Schedules the call exactly **14 days from today at 15:00**
 * Links call to the booking via `regardingobjectid`
 * Call subject & body dynamically include the assigned resource’s name
