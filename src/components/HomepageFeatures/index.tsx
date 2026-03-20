@@ -11,34 +11,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Develop Faster',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Next Generation Toolset',
+    Svg: require('@site/static/img/tools.svg').default,
     description: (
       <>
-        By xRM World browser extension, 
-        you can focus on building your application without worrying about the underlying naming conventions match across the team.
+        Tools for Microsoft Power Platform developers and architects., 
+        Applications that can be used to accelerate development
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Model-driven Applications',
+    Svg: require('@site/static/img/favourite-window.svg').default,
     description: (
       <>
-        Generate documentation with xRM World, you can
-        generate and maintain documentation for your Power Platform projects,
-        ensuring that your team is always on the same page.
+        Managed solutions for Dynamics 365 Model-driven apps that can be
+        installed directly into your environment to extend its capabilities.
       </>
     ),
   },
   {
     title: 'Keep Updated',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/settings.svg').default,
     description: (
       <>
-        Blog is focused on only Microsoft Power Platform cool information.
-        With xRM World, you can stay updated with the latest trends, tips, and
-        best practices.
+        Blog is focused on only Microsoft Power Platform tool news.
       </>
     ),
   },

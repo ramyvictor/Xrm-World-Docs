@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            xRM Toolset - Dive in!
+            Read More
           </Link>
         </div>
       </div>
