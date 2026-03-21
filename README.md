@@ -2,6 +2,12 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+## Workflow
+1. Clone `dev` branch => change => sidebars.ts
+2. $env:GIT_USER = "ramyvictor"
+3. npm i
+4. npm run deploy
+
 ## Installation
 
 ```bash

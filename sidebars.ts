@@ -22,8 +22,8 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Developer Tools',
-      items: ['document-generator/introduction'
-
+      items: ['document-generator/introduction',
+'browser-extensions/mda'
       ],
     },
     {
