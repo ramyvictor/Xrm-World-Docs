@@ -29,7 +29,7 @@ The extension keeps helper state available across pages so repeated testing does
 
 The JSON object manipulator opens a record editor for inspecting and changing record payloads directly. It is intended for testing, metadata inspection, and template creation.
 
-![JSON object manipulator](img/json-object-manipulator.png)
+![JSON object manipulator](../img/json-object-manipulator.png)
 
 The screen includes:
 

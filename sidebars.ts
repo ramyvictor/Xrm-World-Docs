@@ -38,13 +38,13 @@ const sidebars: SidebarsConfig = {
               label: 'xRM MDA',
               link: {
                 type: 'doc',
-                id: 'browser-extensions/mda',
+                id: 'browser-extensions/mda/overview',
               },
               items: [
-                'browser-extensions/naming-engine',
-                'browser-extensions/productivity-tools',
-                'browser-extensions/documentation-tools',
-                'browser-extensions/mda-privacy-policy',
+                'browser-extensions/mda/naming-convention',
+                'browser-extensions/mda/productivity-tools',
+                'browser-extensions/mda/documentation-tools',
+                'browser-extensions/mda/privacy-policy',
               ],
             },
           ],

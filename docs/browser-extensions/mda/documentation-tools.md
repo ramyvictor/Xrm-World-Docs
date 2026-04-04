@@ -9,7 +9,7 @@ Documentation tools collect metadata from the current table and expose it throug
 
 The form documentation view lists fields on the selected form and cross references additional metadata for each field.
 
-![Form documentation view](img/form-documentation.png)
+![Form documentation view](../img/form-documentation.png)
 
 The form view supports:
 
@@ -22,7 +22,7 @@ The form view supports:
 
 The workflow view shows automations related to the current table and can expand each item to list the triggering attributes.
 
-![Workflow cross reference](img/workflows-view.png)
+![Workflow cross reference](../img/workflows-view.png)
 
 The documentation navigation groups related automation surfaces under the same area:
 
@@ -36,7 +36,7 @@ The documentation navigation groups related automation surfaces under the same a
 
 The relationship view renders selected relationships as a diagram and supports export for reuse outside the extension.
 
-![Relationship diagram](img/relationship-diagram.png)
+![Relationship diagram](../img/relationship-diagram.png)
 
 Available actions shown in the UI include:
 
@@ -49,7 +49,7 @@ Available actions shown in the UI include:
 
 The security area shows role access for the selected table and lets the result be filtered by user scope and privilege depth.
 
-![Security roles matrix](img/security-roles.png)
+![Security roles matrix](../img/security-roles.png)
 
 The matrix exposes privilege columns such as create, read, write, delete, append, append-to, assign, and share. The filter bar supports the security levels shown in the UI: User, Business Unit, Deep, and Organization.
 

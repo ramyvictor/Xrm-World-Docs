@@ -9,7 +9,7 @@ The naming engine watches supported maker forms and writes generated names to ta
 
 Global settings define the publisher prefix used across naming rules. The prefix can be referenced from rule templates through `${globalPrefix}`.
 
-![Global naming settings](img/naming-global-settings.png)
+![Global naming settings](../img/naming-global-settings.png)
 
 If the maker page indicates a different publisher prefix than the configured global prefix, the extension shows a warning so the component is not created under the wrong publisher.
 
@@ -28,13 +28,13 @@ If the maker page indicates a different publisher prefix than the configured glo
 
 Table rules define how a display name becomes a schema name. A rule can be enabled or disabled per context and can apply a convention, a prefix, a suffix, and a maximum length.
 
-![Table naming rules](img/naming-table-rules.png)
+![Table naming rules](../img/naming-table-rules.png)
 
 ## Column rules
 
 Column rules support both fallback values and data-type-specific overrides. When an override matches the displayed column data type label, its prefix or suffix is applied instead of the fallback value.
 
-![Column naming overrides](img/naming-column-overrides.png)
+![Column naming overrides](../img/naming-column-overrides.png)
 
 ### Column data-type overrides
 
@@ -49,7 +49,7 @@ Column rules support both fallback values and data-type-specific overrides. When
 
 Form rules generate names for form tabs and sections. In addition to convention, prefix, suffix, and max length, form rules support templates with token substitution.
 
-![Form naming rules](img/naming-form-rules.png)
+![Form naming rules](../img/naming-form-rules.png)
 
 Supported template tokens shown in the UI include:
 
@@ -64,7 +64,7 @@ These tokens let a rule compose names from the current label and previously reso
 
 Web resource rules generate both path prefixes and file extensions based on file type.
 
-![Web resource naming overrides](img/naming-web-resource-overrides.png)
+![Web resource naming overrides](../img/naming-web-resource-overrides.png)
 
 | File type keyword | Prefix | Suffix |
 |---|---|---|

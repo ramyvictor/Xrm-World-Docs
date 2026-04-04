@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "skills": {
+    "documentation": {
+      "source": "baz-scm/awesome-reviewers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/baz-scm/awesome-reviewers.git",
+      "skillFolderHash": "",
+      "installedAt": "2026-04-04T16:52:59.175Z",
+      "updatedAt": "2026-04-04T16:52:59.175Z"
+    }
+  },
+  "dismissed": {}
+}

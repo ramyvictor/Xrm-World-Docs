@@ -1,0 +1,127 @@
+# xRM MDA for Power Apps and Dynamics 365
+
+## Short Description
+
+Shortcut-first maker tooling for Dynamics 365 and Power Apps with templates, naming automation, metadata access, JSON payload editing, and documentation views.
+
+## Full Description
+
+xRM MDA is a browser extension for Power Apps model-driven apps and maker pages. It combines naming rules, record helpers, metadata navigation, JSON payload tooling, and generated documentation in one extension.
+
+Some utilities are familiar to teams that already use Level Up style tooling. The difference here is the shortcut-first workflow, the reusable template flow, and the additional maker-focused documentation and naming features.
+
+## What Makes xRM MDA Different
+
+- Keyboard shortcuts for high-frequency record and metadata actions.
+- Metadata launch from both record context and list context.
+- Reusable template workflow for saving and reapplying form values.
+- JSON object manipulator for record payload inspection, editing, create, update, and template work.
+- Context-aware naming rules across maker surfaces.
+- Built-in documentation views for forms, workflows, diagrams, and security.
+- Navigation explorer for moving between table metadata surfaces from inside the app.
+
+## Keyboard-First Workflow
+
+xRM MDA is designed for users who want frequent actions on the keyboard instead of repeated popup interaction.
+
+Verified shortcuts in the current docs:
+
+- `Alt+F` to set a fake value on the current record or fill the full form.
+- `Alt+F+N` to set fake values in a new record.
+- `Alt+G` to toggle Godmode.
+- `Alt+N` to show or hide logical names.
+- `Alt+C` to clone the current record.
+- `Alt+I` to copy the current record ID.
+- `Alt+M` to open metadata tools for the current entity.
+
+## Record and Testing Utilities
+
+- Clone the current record.
+- Copy the current record ID.
+- Show or hide logical names.
+- Toggle Godmode while customizing or testing.
+- Keep Godmode and logical name visibility available across navigation.
+- Fill the current form with fake data.
+- Fill a new record with fake data.
+- Reuse saved values through templates.
+
+## Template Workflow
+
+The extension includes a persistent template workflow for repeated test and setup scenarios.
+
+- Save current form values for reuse.
+- Store templates from the popup and JSON tooling surface.
+- Reapply templates on later records.
+- Use templates together with fake-fill and payload editing flows.
+
+## JSON Object Manipulator
+
+The JSON object manipulator is one of the main advanced features in xRM MDA.
+
+- Inspect record payloads directly.
+- Edit values in a JSON-oriented view.
+- Open existing records or create new ones.
+- Run update and create style operations.
+- Work with relationships.
+- Add empty properties.
+- Randomize values.
+- Save payloads as templates.
+
+## Metadata Access
+
+xRM MDA exposes metadata entry points from multiple contexts.
+
+- Open metadata tools from the current record.
+- Open metadata tools from the current list view.
+- Use the navigation explorer to search tables and jump between metadata surfaces.
+
+## Naming and Maker Automation
+
+The naming engine applies rule-driven naming behavior across maker experiences.
+
+- Global publisher prefix configuration.
+- Table naming rules.
+- Column naming rules.
+- Column data-type overrides such as `lookup`, `yes/no`, `choice`, and `text`.
+- Form naming rules for tabs and sections.
+- Template token support in form naming rules.
+- Web resource path and extension rules.
+- Process naming support.
+- Warning when the detected publisher prefix does not match the configured global prefix.
+
+## Documentation and Analysis Features
+
+xRM MDA also includes documentation tooling that goes beyond quick record utilities.
+
+- Form documentation with field metadata.
+- Filters for fields, tabs, and sections.
+- Visual state indicators such as required, read-only, and audit state.
+- Workflow cross-reference with triggering attributes.
+- Visibility into workflows, business rules, BPFs, plugins, and Power Automate.
+- Relationship diagrams with `SVG` and `Draw.io` export.
+- Security role matrix by privilege depth.
+- Word export of collected documentation.
+
+## Who Should Use This
+
+- Power Platform makers.
+- Dynamics 365 consultants.
+- Admins.
+- Solution engineers.
+- Teams that repeat the same record setup and testing flows.
+- Teams that want more keyboard-driven execution.
+- Teams that want naming automation and documentation in the same extension.
+
+## Positioning
+
+If your team already uses Level Up style utilities, xRM MDA is strongest where you need:
+
+- More direct shortcut-driven execution.
+- A stronger template and fake-fill workflow.
+- JSON payload editing from inside the extension.
+- Naming automation for maker surfaces.
+- Built-in documentation, relationship, and security views.
+
+## Summary
+
+xRM MDA is focused on faster maker workflows inside Dynamics 365 and Power Apps through shortcuts, templates, fake-fill tools, naming rules, metadata entry points, JSON payload tooling, and technical documentation views.
