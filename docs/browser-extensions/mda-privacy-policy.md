@@ -38,11 +38,3 @@ The extension uses `chrome.storage.sync` to persist your configuration (naming r
 ## Third-Party Services
 
 The extension does **not** communicate with any third-party services, analytics platforms, or external servers. All functionality runs locally in your browser against your own Dynamics 365 environment.
-
-## Changes to This Policy
-
-If this policy is updated, the changes will be reflected in the extension repository with an updated date.
-
-## Contact
-
-If you have questions about this privacy policy, please open an issue in the project repository.

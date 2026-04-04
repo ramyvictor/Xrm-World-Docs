@@ -22,8 +22,33 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Developer Tools',
-      items: ['document-generator/introduction',
-'browser-extensions/mda'
+      items: [
+        'document-generator/introduction',
+        {
+          type: 'category',
+          label: 'Browser Extensions',
+          link: {
+            type: 'generated-index',
+            title: 'Browser Extensions',
+            description: 'Documentation for xRM browser extensions.',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'xRM MDA',
+              link: {
+                type: 'doc',
+                id: 'browser-extensions/mda',
+              },
+              items: [
+                'browser-extensions/naming-engine',
+                'browser-extensions/productivity-tools',
+                'browser-extensions/documentation-tools',
+                'browser-extensions/mda-privacy-policy',
+              ],
+            },
+          ],
+        },
       ],
     },
     {
