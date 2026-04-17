@@ -5,17 +5,40 @@ title: Productivity Tools
 
 Productivity tools are available when working with records and metadata screens. They focus on reducing manual test setup, exposing record data quickly, and keeping helper states persistent across pages.
 
-## Shortcuts
+## 9. Keyboard Shortcuts
+
+All shortcuts work on record pages without opening the popup.
 
 | Shortcut | Action |
-|---|---|
-| `Alt+F` | Set a fake value on the current record or fill the full form |
-| `Alt+F+N` | Set fake values in a new record |
-| `Alt+G` | Toggle god mode |
-| `Alt+N` | Show or hide logical names on fields |
-| `Alt+C` | Clone the current record |
-| `Alt+I` | Copy the current record ID |
-| `Alt+M` | Open metadata tools for the current entity |
+|----------|--------|
+| `Alt+I` | Copy Record ID |
+| `Alt+U` | Copy Record URL |
+| `Alt+C` | Clone Record |
+| `Alt+W` | Open Web API |
+| `Alt+F` | Fake fill (focused field or full form) |
+| `Alt+G` | Godmode (one-shot) |
+| `Alt+N` | Toggle Show Names (one-shot) |
+| `Alt+M` | Open Metadata Tools (JSON viewer) |
+| `Alt+Shift+F` | Fake fill new record |
+| `Alt+Shift+M` | Open the current environment in Maker portal |
+| `Alt+Shift+P` | Open the current environment flows page |
+
+### Metadata Tools Deep Links
+
+These shortcuts open Metadata Tools directly on the matching hash route.
+
+| Shortcut | Hash target |
+|----------|-------------|
+| `Alt+Shift+J` | `#json` |
+| `Alt+Shift+D` | `#document/form` |
+| `Alt+Shift+T` | `#document/trigger-flows` |
+| `Alt+Shift+R` | `#document/power-automate/related-flows` |
+| `Alt+Shift+W` | `#document/workflows` |
+| `Alt+Shift+B` | `#document/business-rules` |
+| `Alt+Shift+L` | `#document/diagram/relationships` |
+| `Alt+Shift+S` | `#document/security/roles` |
+| `Alt+Shift+C` | `#document/security/column-security` |
+| `Alt+Shift+E` | `#document/settings/export` |
 
 ## Persistent helpers
 

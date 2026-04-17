@@ -14,7 +14,7 @@ Welcome to the Template Engine Help page. Here you will find guidance and troubl
   - Define a group of template items to automate actions on Dataverse records.
   - Use filtering expressions to control when groups run.
 - **Defining Template Items:**
-  - Use the Monaco Editor for intelligent suggestions.
+  - Use the editor for intelligent suggestions.
   - Reference `source`, `env`, and `faker` in your expressions.
 - **Setting Up Triggers:**
   - Configure triggers to run templates on specific events (e.g., record updates).
@@ -29,7 +29,7 @@ Welcome to the Template Engine Help page. Here you will find guidance and troubl
   - Test templates in a non-production environment first.
   - Review template logic and conditions.
 - **Editor issues?**
-  - Refresh the page if Monaco Editor suggestions do not appear.
+  - Refresh the page if editor suggestions do not appear.
   - Ensure your browser supports modern JavaScript features.
 
 ## FAQ

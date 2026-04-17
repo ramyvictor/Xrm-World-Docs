@@ -59,8 +59,8 @@ Therefore you can find all related job runs to a specific record.
 - **Items**: One group has many items (1:N)
 - **Triggers**: Many-to-many relationship with groups (N:N)
 - **Jobs**: Many-to-many relationship with both groups (N:N) and triggers (N:N)
-## Monaco Editor for Template Items
-The editor uses the Monaco Editor, providing intelligent suggestions and auto-completions for template expressions. As you type, the editor offers context-aware completions for properties like `source`, `env`, and `faker`, making it easy to construct dynamic expressions. For example, typing `source.` will suggest available fields from the source record, while `env.` provides environment variables, and `faker.` exposes bogus fake data generation for testing.
+## Editor for Template Items
+The editor uses the editor, providing intelligent suggestions and auto-completions for template expressions. As you type, the editor offers context-aware completions for properties like `source`, `env`, and `faker`, making it easy to construct dynamic expressions. For example, typing `source.` will suggest available fields from the source record, while `env.` provides environment variables, and `faker.` exposes bogus fake data generation for testing.
 
 The schema functionality powers these suggestions, ensuring that only valid properties in all entities metadata and methods are shown based on your template item entity context.
 ### Schema

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Naming Convention
+title: Live Naming Convention
 ---
 
 The naming engine watches supported maker forms and writes generated names to target fields as the source label changes. Rules are grouped by context and are saved automatically in extension storage.
