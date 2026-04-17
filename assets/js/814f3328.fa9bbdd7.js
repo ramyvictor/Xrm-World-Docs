@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxrm_world_docu_saurus=self.webpackChunkxrm_world_docu_saurus||[]).push([[7472],{9569:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Coming soon!","permalink":"/blog/index","unlisted":false,"date":"2025-08-01T15:54:23.000Z"}]}')}}]);
