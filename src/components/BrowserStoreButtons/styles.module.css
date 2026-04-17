@@ -1,0 +1,24 @@
+.wrapper {
+  margin: 1.5rem 0 2rem;
+}
+
+.label {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.buttonContent {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  flex: 0 0 auto;
+}
